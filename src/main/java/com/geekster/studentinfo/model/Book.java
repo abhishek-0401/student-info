@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Table(name="tbl_book")
 public class Book {
     @Id
-    private int ID;
+    private Integer ID;
     private String title;
     private String author;
     private String description;
