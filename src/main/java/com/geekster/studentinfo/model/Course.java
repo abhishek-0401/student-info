@@ -15,7 +15,7 @@ import java.util.List;
 @Table(name="tbl_course")
 public class Course {
     @Id
-    private int ID;
+    private Integer ID;
     private String title;
     private String description;
     private String duration;
