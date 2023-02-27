@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Table(name="tbl_laptop")
 public class Laptop {
     @Id
-    private int ID;
+    private Integer ID;
     private String name;
     private String brand;
     private Integer price;
